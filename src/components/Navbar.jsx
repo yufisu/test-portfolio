@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useState }  from 'react'
 import { BiHome } from 'react-icons/bi';
 import { BsPerson } from 'react-icons/bs';
 import { FaRegEye } from 'react-icons/fa';
 import { BsMailbox } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+
 
 
 const Navbar = () => {
+  const location = useLocation();
+  const [content, setContent] = useState('');
+
+  const handleNavLinkClick = () => {
+    setContent(`Content for ${location.pathname}`);
+  };
+  
   return (
     <div className="navbar bg-[#00df9a] h-screen w-14 flex flex-col items-center justify-between">
       <div className="main-logo h-14 flex-1">
@@ -16,6 +24,7 @@ const Navbar = () => {
       <div className="pages-bar flex-1 flex flex-col justify-center">
         <div className="page-icons">
           <Link to='/home' className={`${location.pathname === '/home' ? 'text-white' : ''}`}
+          
       >
             <BiHome className="text-3xl mb-5 cursor-pointer hover:fill-white ease-in hover:text-4xl duration-100"/>
           </Link>
