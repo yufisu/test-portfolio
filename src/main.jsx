@@ -11,12 +11,13 @@ import Contact from './components/Contact.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
       <div className='flex font-["sf-medium"]'>
-        <Navbar/>
         <BrowserRouter>
+        <Navbar/>
           <Routes>
-            <Route index element={<Contact />}/>
+            <Route index element={<Mainpage/>}/>
             <Route path='/home' element={<Mainpage />}/>
             <Route path='/about' element={<Aboutme/>}/>
+            <Route path='/contact' element={<Contact/>}/>
           </Routes>
         </BrowserRouter>
       </div>

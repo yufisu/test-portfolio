@@ -15,27 +15,41 @@ const Navbar = () => {
       </div>
       <div className="pages-bar flex-1 flex flex-col justify-center">
         <div className="page-icons">
-            <BiHome className="text-3xl mb-5 cursor-pointer"/>
+          <Link to='/home' className={`${location.pathname === '/home' ? 'text-white' : ''}`}
+      >
+            <BiHome className="text-3xl mb-5 cursor-pointer hover:fill-white ease-in hover:text-4xl duration-100"/>
+          </Link>
         </div>
         <div className="page-icons">
-          <BsPerson className="text-3xl mb-5 cursor-pointer"/>
+          <Link to='/about' className={`${location.pathname === '/about' ? 'text-white' : ''}`}>
+            <BsPerson className="text-3xl mb-5 cursor-pointer hover:fill-white hover:text-4xl ease-in-out duration-100"/>
+          </Link>
         </div>
         <div className="page-icons">
-          <FaRegEye className='text-3xl mb-5 cursor-pointer'/>
+          <Link to='/'></Link>
+          <FaRegEye className='text-3xl mb-5 cursor-pointer hover:fill-white hover:text-4xl ease-in duration-100'/>
         </div>
         <div className="page-icons">
-          <BsMailbox className='text-3xl mb-5 cursor-pointer'/>
+          <Link to='/contact' className={`${location.pathname === '/contact' ? 'text-white' : ''}`}>
+            <BsMailbox className='text-3xl mb-5 cursor-pointer hover:fill-white hover:text-4xl ease-in duration-100'/> 
+          </Link>
         </div>
       </div>
       <div className="contact-bar flex flex-col flex-1 justify-end">
         <div className="contact-icons">
-          <AiFillLinkedin className='text-xl mb-3 cursor-pointer'/>
+          <a href="https://www.linkedin.com/in/yusuf-kerem-malkoç-8aba24224/" target='blank'>
+            <AiFillLinkedin className='text-xl mb-3 cursor-pointer hover:fill-white hover:text-4xl duration-100'/>
+          </a>
         </div>
         <div className="contact-icons">
-          <AiFillGithub className='text-xl mb-3 cursor-pointer'/>
+          <a href="https://github.com/yufisu" target='blank'>
+          <AiFillGithub className='text-xl mb-3 cursor-pointer hover:fill-white hover:text-4xl duration-100'/>
+          </a>
         </div>
         <div className="contact-icons">
-          <AiOutlineInstagram className='text-xl mb-12 cursor-pointer'/>
+          <a href="https://www.instagram.com/yufiskerem/" target='blank'>
+          <AiOutlineInstagram className='text-xl mb-12 cursor-pointer hover:fill-white hover:text-4xl duration-100'/>
+          </a>
         </div>
       </div>
     </div>
