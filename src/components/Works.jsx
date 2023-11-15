@@ -16,7 +16,7 @@ const Works = () => {
           <div className="oishii row-span-1">
             <div className="oishii-banner w-80 mb-2 hover:w-96 transition-all">
               <a href="https://yufisu.github.io/oishii-project/" target="blank">
-                <img src="images/oishii site.png" alt="oishii" className="rounded-xl brightness-75"/>
+                <img src="../../images/oishii site.png" alt="oishii" className="rounded-xl brightness-75"/>
               </a>
             </div>
             <div className="oishii-text text-white font-[sf-light-italic]">Oishii Website</div>
@@ -25,7 +25,7 @@ const Works = () => {
           <div className="met">
             <div className="met-banner w-80 mb-2 hover:w-96 transition-all">
               <a href="https://yufisu.github.io/themetmuseum/" target="blank">
-                <img src="images/metmuseum site.png" alt="" className="rounded-xl brightness-75" />
+                <img src="../../images/metmuseum site.png" alt="" className="rounded-xl brightness-75" />
               </a>
             </div>
             <div className="met-text text-white font-[sf-light-italic]">The Met Museum Website</div>
