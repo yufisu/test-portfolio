@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleNavLinkClick = () => {
     setContent(`Content for ${location.pathname}`);
   };
-  
+
   return (
     <div className="navbar bg-[#00df9a] h-screen w-14 flex flex-col items-center justify-between">
       <div className="main-logo h-14 flex-1">
@@ -23,9 +23,7 @@ const Navbar = () => {
       </div>
       <div className="pages-bar flex-1 flex flex-col justify-center">
         <div className="page-icons">
-          <Link to='/home' className={`${location.pathname === '/home' ? 'text-white' : ''}`}
-          
-      >
+          <Link to='/home' className={`${location.pathname === '/home' ? 'text-white' : ''}`}>
             <BiHome className="text-3xl mb-5 cursor-pointer hover:fill-white ease-in hover:text-4xl duration-100"/>
           </Link>
         </div>
@@ -35,8 +33,9 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="page-icons">
-          <Link to='/'></Link>
-          <FaRegEye className='text-3xl mb-5 cursor-pointer hover:fill-white hover:text-4xl ease-in duration-100'/>
+          <Link to='/works' className={`${location.pathname === '/works' ? 'text-white' : ''}`}>
+            <FaRegEye className='text-3xl mb-5 cursor-pointer hover:fill-white hover:text-4xl ease-in duration-100'/>
+          </Link>
         </div>
         <div className="page-icons">
           <Link to='/contact' className={`${location.pathname === '/contact' ? 'text-white' : ''}`}>

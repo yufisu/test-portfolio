@@ -10,9 +10,9 @@ const Aboutme = () => {
           <h1>About me</h1>
         </div>
           <div className="about-paragraph"></div>
-          <p className="font-['sf-thin-italic'] mb-3 w-[30rem]">&lt;p&gt; I’m on a mission to learn how to develop interactive, good-looking and user-friendly websites with a good understanding of the new technologies found in the community. &lt;/p&gt;</p>
-          <p className="font-['sf-thin-italic'] mb-3 w-[30rem]">&lt;p&gt; I love turning design ideas and code lines to responsive websites and I am so excited about what there is to learn.&lt;/p&gt;</p>
-          <p className="font-['sf-thin-italic']  mb-3 w-[30rem]">&lt;p&gt;I have experience in HTML5 & CSS3 to create modern websites and Javascript with React to make them interactive. Also I have a good understanding of aesthetics.&lt;/p&gt;</p>
+          <p className="font-['sf-thin-italic'] mb-7 w-[30rem]">&lt;p&gt; I’m on a mission to learn how to develop interactive, good-looking and user-friendly websites with a good understanding of the new technologies found in the community. &lt;/p&gt;</p>
+          <p className="font-['sf-thin-italic'] mb-7 w-[30rem]">&lt;p&gt; I love turning design ideas and code lines to responsive websites and I am so excited about what there is to learn.&lt;/p&gt;</p>
+          <p className="font-['sf-thin-italic']  mb-7 w-[30rem]">&lt;p&gt;I have experience in HTML5 & CSS3 to create modern websites and Javascript with React to make them interactive. Also I have a good understanding of aesthetics.&lt;/p&gt;</p>
           <p className="font-['sf-thin-italic'] w-[30rem]">You can see more on Github.</p>
         
       </div>

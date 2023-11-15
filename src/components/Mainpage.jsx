@@ -14,7 +14,7 @@ const Mainpage = () => {
         <BiPlus className="text-7xl text-white"/>
       </div>
       <div className="banner flex justify-start h-48 mr-48">
-        <BiLogoReact className="text-[10rem] text-[#61DBFB]"/>
+        <BiLogoReact className="text-[10rem] text-[#61DBFB] hover:text-[12rem] ease-in duration-150 hover:rotate-[60deg]"/>
       </div>
     </div>
   )
