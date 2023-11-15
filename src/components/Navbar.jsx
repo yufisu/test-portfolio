@@ -23,22 +23,22 @@ const Navbar = () => {
       </div>
       <div className="pages-bar flex-1 flex flex-col justify-center">
         <div className="page-icons">
-          <Link to='/test-portfolio/home' className={`${location.pathname === '/home' ? 'text-white' : ''}`}>
+          <Link to='/test-portfolio/home' className={`${location.pathname === '/test-portfolio/home' ? 'text-white' : ''}`}>
             <BiHome className="text-3xl mb-5 cursor-pointer hover:fill-white ease-in hover:text-4xl duration-100"/>
           </Link>
         </div>
         <div className="page-icons">
-          <Link to='/test-portfolio/about' className={`${location.pathname === '/about' ? 'text-white' : ''}`}>
+          <Link to='/test-portfolio/about' className={`${location.pathname === '/test-portfolio/about' ? 'text-white' : ''}`}>
             <BsPerson className="text-3xl mb-5 cursor-pointer hover:fill-white hover:text-4xl ease-in-out duration-100"/>
           </Link>
         </div>
         <div className="page-icons">
-          <Link to='/test-portfolio/works' className={`${location.pathname === '/works' ? 'text-white' : ''}`}>
+          <Link to='/test-portfolio/works' className={`${location.pathname === '/test-portfolio/works' ? 'text-white' : ''}`}>
             <FaRegEye className='text-3xl mb-5 cursor-pointer hover:fill-white hover:text-4xl ease-in duration-100'/>
           </Link>
         </div>
         <div className="page-icons">
-          <Link to='/test-portfolio/contact' className={`${location.pathname === '/contact' ? 'text-white' : ''}`}>
+          <Link to='/test-portfolio/contact' className={`${location.pathname === '/test-portfolio/contact' ? 'text-white' : ''}`}>
             <BsMailbox className='text-3xl mb-5 cursor-pointer hover:fill-white hover:text-4xl ease-in duration-100'/> 
           </Link>
         </div>
