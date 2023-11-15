@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-[#00df9a] h-screen w-14 flex flex-col items-center justify-between">
       <div className="main-logo h-14 flex-1">
-          <img src="yufis.PNG" alt="yufis" className='cursor-pointer'/>
+          <img src="https://yufisu.github.io/test-portfolio/images/yufis.jpg" alt="yufis" className='cursor-pointer'/>
       </div>
       <div className="pages-bar flex-1 flex flex-col justify-center">
         <div className="page-icons">
