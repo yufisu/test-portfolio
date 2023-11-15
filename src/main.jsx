@@ -15,11 +15,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Navbar/>
           <Routes>
             <Route index element={<Mainpage/>}/>
-            <Route path='/' element={<Mainpage />}/>
-            <Route path='/home' element={<Mainpage />}/>
-            <Route path='/about' element={<Aboutme/>}/>
-            <Route path='/works' element={<Works/>}/>
-            <Route path='/contact' element={<Contact/>}/>
+            <Route path='/test-portfolio/' element={<Mainpage />}/>
+            <Route path='/test-portfolio/home' element={<Mainpage />}/>
+            <Route path='/test-portfolio/about' element={<Aboutme/>}/>
+            <Route path='/test-portfolio/works' element={<Works/>}/>
+            <Route path='/test-portfolio/contact' element={<Contact/>}/>
           </Routes>
         </BrowserRouter>
       </div>
