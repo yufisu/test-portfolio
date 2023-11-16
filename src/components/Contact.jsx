@@ -10,23 +10,23 @@ const Contact = () => {
           </div>
           <div className="paragraph font-['sf-thin-italic'] w-10/12"> I look forward to opportunities to work freelance and have a wide variety of experiences with unique clients. If you like my work or have questions about them, you can contact me using the form below.</div>
         </div>
-        <div className="submit-bar mb-22 w-[370px]">
-          <div className="top-row flex justify-start">
+        <div className="submit-bar mb-22 w-[28rem]">
+          <div className="top-row flex justify-between w-full gap-3">
             <div>
-              <input type="text" className="text-white border border-solid border-gray-400 bg-transparent p-3 mr-3" placeholder="Name"/>
+              <input type="text" className="text-white border border-solid border-gray-400 bg-transparent p-3 w-full" placeholder="Name"/>
             </div>
             <div>
-                <input type="email" className="text-white border border-solid border-gray-400 bg-transparent p-3" placeholder="Email"/>
+                <input type="email" className="text-white border border-solid border-gray-400 bg-transparent p-3 w-full" placeholder="Email"/>
             </div>
           </div>
           <div className="mid-row">
             <div>
-              <input type="text" className="text-white border border-solid border-gray-400 bg-transparent py-3 pl-3 mt-3 pr-[247px]" placeholder="Subject"/>
+              <input type="text" className="text-white border border-solid border-gray-400 bg-transparent p-3 mt-3 w-full" placeholder="Subject"/>
             </div>
           </div>
           <div className="bot-row">
             <div>
-              <input type="text" className="text-white border border-solid border-gray-400 bg-transparent py-3 pb-32 pl-3 mt-3 pr-[247px]" placeholder="Message"/>
+              <textarea rows="4" cols="50" name="comment" form="usrform" className="text-white border border-solid border-gray-400 bg-transparent p-3 mt-3 w-full pb-24" placeholder="Message"></textarea>
             </div>
           </div>
           <div className="send-button w-[450px] flex justify-end">
