@@ -25,7 +25,7 @@ const Works = () => {
           <div className="met">
             <div className="met-banner w-80 mb-2 hover:w-96 transition-all">
               <a href=":https://yufisu.github.io/themetmuseum/" target="blank">
-                <img src="https://i.imgur.com/SFSqif8.png" alt="" className="rounded-xl brightness-75 hover:brightness-50 transition-all" />
+                <img src="https://i.imgur.com/SFSqif8.png" alt="" className="rounded-xl brightness-75 hover:brightness-50 transition-all"/>
               </a>
             </div>
             <div className="met-text text-white font-[sf-light-italic]">The Met Museum Website</div>
