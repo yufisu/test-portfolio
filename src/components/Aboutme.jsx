@@ -5,7 +5,7 @@ import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 const Aboutme = () => {
   return (
     <>
-      <div className="about-me-page flex items-center h-screen">
+      <div className="about-me-page flex items-center h-screen max-sm:overflow-hidden">
         <div className="about-text text-white flex-1 flex flex-col justify-center h-screen ml-24 max-sm:ml-4 max-sm:">
           <div className="about-me text-[3.5rem] mb-12 max-sm:text-7xl max-sm:w-fit">
             <h1>About me</h1>
