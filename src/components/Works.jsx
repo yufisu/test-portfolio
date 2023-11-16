@@ -15,8 +15,8 @@ const Works = () => {
         <div className="grid grid-flow-col gap-6 mt-12">
           <div className="oishii row-span-1">
             <div className="oishii-banner w-80 mb-2 hover:w-96 transition-all">
-              <a href="https://i.imgur.com/oMUH0Ff.png" target="blank">
-                <img src="oishii.png" alt="oishii" className="rounded-xl brightness-75"/>
+              <a href="https://yufisu.github.io/oishii-project/" target="blank">
+                <img src="https://i.imgur.com/oMUH0Ff.png" alt="oishii" className="rounded-xl brightness-75"/>
               </a>
             </div>
             <div className="oishii-text text-white font-[sf-light-italic]">Oishii Website</div>
@@ -24,8 +24,8 @@ const Works = () => {
           </div>
           <div className="met">
             <div className="met-banner w-80 mb-2 hover:w-96 transition-all">
-              <a href="https://i.imgur.com/SFSqif8.png" target="blank">
-                <img src="metmuseum.PNG" alt="" className="rounded-xl brightness-75" />
+              <a href=":https://yufisu.github.io/themetmuseum/" target="blank">
+                <img src="https://i.imgur.com/SFSqif8.png" alt="" className="rounded-xl brightness-75" />
               </a>
             </div>
             <div className="met-text text-white font-[sf-light-italic]">The Met Museum Website</div>
