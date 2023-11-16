@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar bg-[#00df9a] h-screen w-14 flex flex-col items-center justify-between">
+    <div className="navbar bg-[#00df9a] h-screen w-14 flex flex-col items-center justify-between sticky">
       <div className="main-logo h-14 flex-1">
           <img src="https://i.imgur.com/8U55YXt.png" alt="yufis" className='cursor-pointer'/>
       </div>

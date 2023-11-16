@@ -12,12 +12,8 @@ const Contact = () => {
         </div>
         <div className="submit-bar mb-22 w-[28rem]">
           <div className="top-row flex justify-between w-full gap-3">
-            <div>
               <input type="text" className="text-white border border-solid border-gray-400 bg-transparent p-3 w-full" placeholder="Name"/>
-            </div>
-            <div>
-                <input type="email" className="text-white border border-solid border-gray-400 bg-transparent p-3 w-full" placeholder="Email"/>
-            </div>
+              <input type="email" className="text-white border border-solid border-gray-400 bg-transparent p-3 w-full" placeholder="Email"/>
           </div>
           <div className="mid-row">
             <div>
@@ -26,7 +22,7 @@ const Contact = () => {
           </div>
           <div className="bot-row">
             <div>
-              <textarea rows="4" cols="50" name="comment" form="usrform" className="text-white border border-solid border-gray-400 bg-transparent p-3 mt-3 w-full pb-24" placeholder="Message"></textarea>
+              <textarea rows="4" cols="50" name="comment" form="usrform" className="text-white border border-solid border-gray-400 bg-transparent p-3 mt-3 w-full pb-24 resize-none" placeholder="Message"></textarea>
             </div>
           </div>
           <div className="send-button w-[450px] flex justify-end">
