@@ -4,7 +4,7 @@ import React from "react";
 const Works = () => {
   return (
     <div className="my-work-page flex items-center h-screen">
-      <div className="work-left text-white flex-1 flex flex-col justify-center h-screen ml-16">
+      <div className="work-left text-white flex-1 flex flex-col justify-center h-screen ml-24">
         <div className="work-title text-[3.5rem] mb-5">
           <h1>My Work</h1>
         </div >

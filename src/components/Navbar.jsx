@@ -27,7 +27,9 @@ const Navbar = () => {
     <div className="navbar bg-[#00df9a] h-screen w-14 flex flex-col items-center justify-between fixed max-sm:w-screen max-sm:h-auto max-sm: max-sm:items-center">
       <div className='flex flex-col items-center h-screen max-sm:h-auto'>
       <div className="main-logo h-14 flex-1 max-sm:h-0 max-sm:grid max-sm:grid-flow-col max-sm:w-screen max-sm:grid-cols-3 max-sm:justify-items-center">
-          <img src="https://i.imgur.com/1rgp2gY.png" alt="yufis" className='cursor-pointer max-sm:w-24 invert col-start-2'/>
+        <Link to='/test-portfolio/home' className='max-sm:col-start-2'>
+          <img src="https://i.imgur.com/1rgp2gY.png" alt="yufis" className='cursor-pointer max-sm:w-24 invert hover:invert-0 max-sm:col-start-2'/>
+        </Link>
           <div className='flex justify-end md:hidden self-end col-start-3 items-end'>
             <button onClick={toggleNavbar}>
               <GiHamburgerMenu className='text-4xl mb-6 ml-6 cursor-pointer'/>
