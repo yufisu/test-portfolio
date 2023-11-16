@@ -10,7 +10,7 @@ import Works from './components/Works.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <div className='flex font-["sf-medium"]'>
+      <div className='flex font-["sf-medium"] max-sm:flex-col'>
         <BrowserRouter>
         <Navbar/>
           <Routes>
