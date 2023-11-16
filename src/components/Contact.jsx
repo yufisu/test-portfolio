@@ -8,7 +8,7 @@ const Contact = () => {
           <div className="title text-[3.5rem] mb-12">
             <h1>Contact me</h1>
           </div>
-          <div className="paragraph font-['sf-thin-italic'] w-10/12"> I look forward to opportunities to work freelance and have a wide variety of experiences with unique clients. If you like my work or have questions about them, you can contact me using the form below. Please note that these are not my designs, just the code.</div>
+          <div className="paragraph font-['sf-thin-italic'] w-10/12"> I look forward to opportunities to work freelance and have a wide variety of experiences with unique clients. If you like my work or have questions about them, you can contact me using the form below.</div>
         </div>
         <div className="submit-bar mb-22 w-[28rem]">
           <div className="top-row flex justify-between w-full gap-3">

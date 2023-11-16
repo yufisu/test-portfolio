@@ -9,7 +9,7 @@ const Works = () => {
           <h1>My Work</h1>
         </div >
           <div className="about-paragraph"></div>
-          <p className="font-['sf-thin-italic'] w-[30rem]">&lt;p&gt;You can see and analyze my work here. Every second I find in my spare time, I try to code new projects.&lt;/p&gt;</p>
+          <p className="font-['sf-thin-italic'] w-[30rem]">&lt;p&gt;You can see and analyze my work here. Every second I find in my spare time, I try to code new projects. Please note that these are not my designs, just the code.&lt;/p&gt;</p>
       </div>
       <div className="portfolio-grid ml-20">
         <div className="grid grid-flow-col gap-6 mt-12">
