@@ -24,7 +24,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="navbar bg-[#00df9a] h-screen w-14 flex flex-col items-center justify-between max-sm:w-screen max-sm:h-auto max-sm:items-center max-sm:absolute">
+    <div className="navbar bg-[#00df9a] h-screen w-14 flex flex-col items-center justify-between max-sm:w-screen max-sm:h-auto max-sm:items-center fixed">
       <div className='flex flex-col items-center h-screen max-sm:h-auto'>
       <div className="main-logo h-14 flex-1 max-sm:h-0 max-sm:grid max-sm:grid-flow-col max-sm:w-screen max-sm:grid-cols-3 max-sm:justify-items-center">
         <Link to='/test-portfolio/home' className='max-sm:col-start-2'>
