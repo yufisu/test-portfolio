@@ -8,7 +8,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 
-
 const Navbar = () => {
 
   const location = useLocation();
