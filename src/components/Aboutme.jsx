@@ -5,16 +5,16 @@ import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 const Aboutme = () => {
   return (
     <>
-      <div className="about-me-page flex items-center h-screen max-sm:overflow-hidden max-sm:h-auto">
-        <div className="about-text text-white flex-1 flex flex-col justify-center h-screen ml-24 max-sm:ml-4 max-sm:mt-32 max-sm:h-auto">
-          <div className="about-me text-[3.5rem] mb-12 max-sm:text-6xl max-sm:w-fit">
+      <div className="about-me-page flex items-center h-screen max-sm:h-auto">
+        <div className="about-text text-white flex-1 flex flex-col justify-center h-screen ml-24 max-sm:ml-0 max-sm:mt-32 max-sm:h-auto max-sm:w-auto max-sm:items-center">
+          <div className="about-me text-[3.5rem] mb-12 max-sm:text-6xl max-sm:text-center max-sm:w-auto">
             <h1>About me</h1>
           </div>
-            <div className="about-paragraph max-sm:w-96"></div>
-            <p className="font-['sf-thin-italic'] mb-7 w-[30rem] max-sm:w-80 max-sm:text-xl">&lt;p&gt; I’m on a mission to learn how to develop interactive, good-looking and user-friendly websites with a good understanding of the new technologies found in the community. &lt;/p&gt;</p>
-            <p className="font-['sf-thin-italic'] mb-7 w-[30rem] max-sm:w-80 max-sm:text-xl">&lt;p&gt; I love turning design ideas and code lines to responsive websites and I am so excited about what there is to learn.&lt;/p&gt;</p>
-            <p className="font-['sf-thin-italic']  mb-7 w-[30rem] max-sm:w-80 max-sm:text-xl max-sm:box-border">&lt;p&gt;I have experience in HTML5 & CSS3 to create modern websites and Javascript with React to make them interactive. Also I have a good understanding of aesthetics.&lt;/p&gt;</p>
-            <p className="font-['sf-thin-italic'] w-[30rem] max-sm:text-xl max-sm:w-96">You can see more on Github.</p>
+            <div className="about-paragraph max-sm:w-auto"></div>
+            <p className="font-['sf-thin-italic'] mb-7 w-[30rem] max-sm:w-80 max-sm:text-xl max-sm:text-center">&lt;p&gt; I’m on a mission to learn how to develop interactive, good-looking and user-friendly websites with a good understanding of the new technologies found in the community. &lt;/p&gt;</p>
+            <p className="font-['sf-thin-italic'] mb-7 w-[30rem] max-sm:w-80 max-sm:text-xl max-sm:text-center">&lt;p&gt; I love turning design ideas and code lines to responsive websites and I am so excited about what there is to learn.&lt;/p&gt;</p>
+            <p className="font-['sf-thin-italic']  mb-7 w-[30rem] max-sm:w-80 max-sm:text-xl max-sm:text-center">&lt;p&gt;I have experience in HTML5 & CSS3 to create modern websites and Javascript with React to make them interactive. Also I have a good understanding of aesthetics.&lt;/p&gt;</p>
+            <p className="font-['sf-thin-italic'] w-[30rem] max-sm:text-xl max-sm:w-80 max-sm:text-center">You can see more on Github.</p>
           </div>
         <div className="cube-banner flex-1 w-1/2 h-full top-0 absolute right-0 overflow-hidden flex items-center max-sm:hidden">
           <div className="cubespinner">
