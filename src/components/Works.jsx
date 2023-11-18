@@ -9,7 +9,7 @@ const Works = () => {
           <h1>My Work</h1>
         </div >
           <div className="about-paragraph w-auto"></div>
-          <p className="font-['sf-thin-italic'] w-[30rem] max-sm:w-auto max-sm:text-center w-auto">&lt;p&gt;You can see and analyze my work here. Every second I find in my spare time, I try to code new projects. Please note that these are not my designs, just the code.&lt;/p&gt;</p>
+          <p className="font-['sf-thin-italic'] max-sm:w-auto max-sm:text-center w-auto">&lt;p&gt;You can see and analyze my work here. Every second I find in my spare time, I try to code new projects. Please note that these are not my designs, just the code.&lt;/p&gt;</p>
       </div>
       <div className="portfolio-grid ml-20 max-sm:ml-0 max-sm:pb-12 max-sm:pt-4 sm:mr-20">
         <div className="grid grid-flow-col gap-6 mt-12 max-sm:grid-flow-row max-sm:mt-0 lg:max-xl:grid-flow-row md:max-xl:grid-flow-row sm:max-md:grid-flow-row">
