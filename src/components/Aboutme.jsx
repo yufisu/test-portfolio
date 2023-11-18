@@ -16,7 +16,7 @@ const Aboutme = () => {
             <p className="font-['sf-thin-italic']  mb-7 w-[30rem] max-sm:w-80 max-sm:text-xl max-sm:text-center">&lt;p&gt;I have experience in HTML5 & CSS3 to create modern websites and Javascript with React to make them interactive. Also I have a good understanding of aesthetics.&lt;/p&gt;</p>
             <p className="font-['sf-thin-italic'] w-[30rem] max-sm:text-xl max-sm:w-80 max-sm:text-center">You can see more on Github.</p>
           </div>
-        <div className="cube-banner flex-1 w-1/2 h-full top-0 absolute right-0 overflow-hidden flex items-center max-sm:hidden">
+        <div className="cube-banner flex-1 w-1/2 h-full top-0 absolute right-0 overflow-hidden flex items-center max-sm:hidden sm:max-md:hidden md:max-lg:hidden">
           <div className="cubespinner">
             <div className="faces face1">
               <BiLogoReact color="#61DBFB"/>
