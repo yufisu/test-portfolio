@@ -4,7 +4,7 @@ import { BiPlus,BiLogoReact } from 'react-icons/bi';
 const Mainpage = () => {
   return (
     <div className="main-page h-screen flex flex-row items-center w-[1384px] justify-between max-sm:w-screen max-sm:flex-col max-sm:h-auto">
-      <div className="welcome-text text-6xl h-96 text-white max-sm:ml-4 max-sm:text-7xl max-sm:mt-40 xl:max-2xl:ml-24 lg:max-xl:ml-24 md:max-lg:ml-24 sm:max-md:ml-24">
+      <div className="welcome-text text-6xl h-96 text-white max-sm:ml-4 max-sm:text-7xl max-sm:mt-40 xl:max-2xl:ml-24 lg:max-xl:ml-24 md:max-lg:ml-24 sm:max-md:ml-24 2xl:ml-24">
         <h1 className="mt-12 max-sm:mb-5 max-sm:mt-1">Hello,</h1>
         <h1 className="max-sm:mb-5">I'm Yusuf Kerem,</h1>
         <h1>doer of <em>things.</em></h1>
